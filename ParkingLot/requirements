@@ -1,0 +1,19 @@
+1. ParkingLot has multiple floors and each floor has multiple parkingSpot
+2. Each spot supports a single type of vehicle for parking
+3. Vehicle(Car, Bike, Truck) enters the ParkingLot
+4. At EntryGate a Ticket is generated.
+5. In ticket we assign vehicle entryTime, a spot for parking
+6. when unparking we use ticket to calculate the parking charges
+
+Objects:
+ParkingLot
+ParkingFloor
+ParkingSpot
+Vehicle
+EntryGate
+Ticket
+ExitGate
+ParkingCharges
+
+Enum
+VehicleType
